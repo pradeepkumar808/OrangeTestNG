@@ -1,0 +1,9 @@
+<suite name ="orangehrm Test suite">
+   <test name= "Orangehrm with valid inputs">
+      <parameter name="adminuid" value="Admin"/>
+      <parameter name="adminpwd" value="Qedge123!@#"/>
+      <classes>
+          <class name="orangehrm.testcases.AdminLoginWithvalidInputs"/>
+      </classes>
+</test>
+</suite>
